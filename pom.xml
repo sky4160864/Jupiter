@@ -47,6 +47,7 @@
         <module>jupiter-serialization</module>
         <module>jupiter-spring-support</module>
         <module>jupiter-transport</module>
+        <module>jupiter-mytest</module>
     </modules>
 
     <properties>
