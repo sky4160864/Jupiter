@@ -47,7 +47,8 @@ public class ServiceTestImpl extends BaseService implements ServiceTest {
         result.lon = Long.MIN_VALUE;
         Integer i = getIntValue();
         result.num = (i == null ? 0 : i);
-        result.list = Lists.newArrayList("H", "e", "l", "l", "o");
+        //result.list = Lists.newArrayList("H", "e", "l", "l", "o");
+        result.list = Lists.newArrayList("Z", "o", "o", "k", "e");
         for (int j = 0; j < 5000; j++) {
             result.list.add(String.valueOf(Integer.MAX_VALUE - j));
         }

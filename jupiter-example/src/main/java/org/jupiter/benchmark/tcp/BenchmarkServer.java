@@ -53,7 +53,7 @@ public class BenchmarkServer {
         SystemPropertyUtil
                 .setProperty("jupiter.executor.factory.provider.factory_name", "threadPool");
 
-        final JServer server = new DefaultServer().withAcceptor(new JNettyTcpAcceptor(18099, processors, true) {
+        final JServer server = new DefaultServer().withAcceptor(new JNettyTcpAcceptor(5005, processors, true) {
 
 //            @Override
 //            protected ThreadFactory workerThreadFactory(String name) {

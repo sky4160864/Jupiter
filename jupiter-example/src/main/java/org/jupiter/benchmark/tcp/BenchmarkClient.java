@@ -93,7 +93,7 @@ public class BenchmarkClient {
 
         UnresolvedAddress[] addresses = new UnresolvedAddress[processors];
         for (int i = 0; i < processors; i++) {
-            addresses[i] = new UnresolvedSocketAddress("127.0.0.1", 18099);
+            addresses[i] = new UnresolvedSocketAddress("127.0.0.1", 5005);
             client.connector().connect(addresses[i]);
         }
 
